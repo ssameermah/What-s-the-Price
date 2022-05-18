@@ -4,37 +4,6 @@
 A quick guide on installation of important libraries and running the code.
 The project has four .ipynb files - watch_classification.ipynb, regression_watch.ipynb, bags_classification and bags_regression.ipynb
 
-## Libraries required for Classification and Regression
-**Basic Libraries**
-1. numpy
-2. matplotlib
-3. seaborn
-4. cv2
-
-**sklearn imports**
-
-5. from sklearn.model_selection import train_test_split
-6. from sklearn.metrics import classification_report, confusion_matrix
-
-**tensorflow and keras**
-
-7. import tensorflow as tf
-8. from tensorflow.keras.preprocessing import image
-9. from tensorflow.keras import Input, Model
-10. from keras.models import Sequential
-11. from keras.callbacks import EarlyStopping
-12. from keras.layers import Dense, Dropout, Activation, Flatten, MaxPooling2D,AveragePooling2D, Conv2D, BatchNormalization, GlobalAveragePooling2D
-13. from tensorflow.keras.applications import DenseNet121, DenseNet201, ResNet50, VGG19, InceptionV3, EfficientNetB7
-14. from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
-15. from tensorflow.keras.callbacks import EarlyStopping,ReduceLROnPlateau
-16. from keras.metrics import AUC.
-
-**others**
-
-17. from random import randint
-18. from tqdm import tqdm
-19. from contextlib import suppress
-
 ## Watch and Bags Classification and Regression
 Both of the classification and Regression ipynb files consists of 3 models each namely a Custom Model, InceptionV3 Transfer Learning model, DenseNet201 Transfer learning model. Thus in a way we trained 12 models for this project.
 
